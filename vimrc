@@ -9,14 +9,14 @@ call vundle#begin()
 " let Vundle manage Vundle , required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'flazz/vim-colorschemes'
-Plugin 'scrooloose/nerdtree'
-Plugin 'mattn/emmet-vim'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/syntastic'
-Plugin 'klen/python-mode'
-Plugin 'tomasr/molokai'
-Plugin 'tpope/vim-surround'
+Plugin 'flazz/vim-colorschemes' "颜色主题
+Plugin 'scrooloose/nerdtree' "文件树
+Plugin 'mattn/emmet-vim' "zencoding ,写html超爽
+Plugin 'scrooloose/nerdcommenter' "注释
+Plugin 'scrooloose/syntastic' "语法分析，用于多种语言，具体可以看git
+Plugin 'klen/python-mode' "Python语法检测
+Plugin 'tomasr/molokai' "一种颜色主题
+Plugin 'tpope/vim-surround' "快捷范围替换
 
 " All of your Plugins must be added before the following line 
 call vundle#end() "required
