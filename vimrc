@@ -48,5 +48,5 @@ map <C-n> :NERDTreeToggle<CR>
 "to install syntastic plugin
 execute pathogen#infect()
 
-"pytthon mode to add 
+"python mode to add 
 call pathogen#helptags()
