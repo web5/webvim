@@ -9,5 +9,5 @@
 3. cp /tmp/vim/vimrc ~/.vimrc
 4. mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-5. PluginInstall
+5. Launch vim and run :PluginInstall
 
